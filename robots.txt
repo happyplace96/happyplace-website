@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://happyplace.com.de/sitemap.xml
