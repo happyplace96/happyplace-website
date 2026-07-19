@@ -115,6 +115,16 @@ h2 { font-size: clamp(2.2rem, 4.2vw, 4.4rem); line-height: 1.05; letter-spacing:
 .product-content a { color: var(--orange-dark); font-size: .88rem; font-weight: 800; text-decoration: none; }
 .center { margin-top: 2.5rem; text-align: center; }
 
+.book-section { display: grid; grid-template-columns: minmax(220px, 360px) minmax(0, 1fr); gap: clamp(2.5rem, 7vw, 7rem); align-items: center; padding-block: clamp(5rem, 10vw, 9rem); background: var(--mint-light); }
+.book-cover { display: grid; place-items: center; padding: clamp(1.4rem, 4vw, 2.5rem); border-radius: 30px; background: rgba(255,255,255,.58); }
+.book-cover img { width: min(100%, 300px); border-radius: 8px; box-shadow: 0 24px 55px rgba(31, 51, 46, .2); }
+.book-content { max-width: 760px; }
+.book-content h2 { max-width: 720px; }
+.book-content > p:not(.eyebrow):not(.book-affiliate-note) { color: var(--ink-soft); font-size: 1.04rem; }
+.book-author { margin-top: -.5rem; color: var(--orange-dark) !important; font-weight: 800; }
+.book-content .button { margin-top: 1rem; }
+.book-affiliate-note { margin-top: 1rem; color: var(--ink-soft); font-size: .78rem; }
+
 .steps { padding-block: clamp(5rem, 10vw, 9rem); background: var(--mint-light); }
 .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.3rem; }
 .steps-grid article { padding: 2rem; border-radius: var(--radius); background: var(--paper); }
@@ -212,7 +222,7 @@ footer small { grid-column: 1 / -1; color: var(--ink-soft); }
   .hero-visual { min-height: 430px; }
   .sun { width: 130px; }
   .manifesto { grid-template-columns: 1fr; }
-  .pillars, .steps-grid, .product-grid, .recommendation-grid, .home-blog-grid, .blog-grid, .idea-list { grid-template-columns: 1fr; }
+  .pillars, .steps-grid, .product-grid, .recommendation-grid, .home-blog-grid, .blog-grid, .idea-list, .book-section { grid-template-columns: 1fr; }
   .pillars article { min-height: 230px; }
   .pillars h3 { margin-top: 2rem; }
   .section-heading { display: block; }
