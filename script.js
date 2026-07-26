@@ -28,4 +28,14 @@ filters.forEach((button) => {
   });
 });
 
-document.querySelector('#year').textContent = new Date().getFullYear();
+document.querySelectorAll('.footer-links').forEach((footerLinks) => {
+  if (!footerLinks.querySelector('a[href*="#buch"]')) {
+    const booksLink = document.createElement('a');
+    booksLink.href = 'index.html#buch';
+    booksLink.textContent = 'Bücher';
+    footerLinks.prepend(booksLink);
+  }
+});
+
+const year = document.querySelector('#year');
+if (year) year.textContent = new Date().getFullYear();
