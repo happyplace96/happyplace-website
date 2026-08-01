@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://happyplace.com.de/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://happyplace.com.de/blog.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://happyplace.com.de/wissen.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://happyplace.com.de/gewohnheiten-routinen.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://happyplace.com.de/gewohnheiten-aufbauen.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://happyplace.com.de/365-happy-place-fragen.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://happyplace.com.de/academy.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://happyplace.com.de/academy-blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
