@@ -6,6 +6,11 @@
   <url><loc>https://happyplace.com.de/gewohnheiten-routinen.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://happyplace.com.de/gewohnheiten-aufbauen.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://happyplace.com.de/365-happy-place-fragen.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://happyplace.com.de/der-roboter-und-der-junge.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://happyplace.com.de/freundschaft-mitgefuehl-kinderbuch.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- MINI_RESET_SITEMAP: Erst nach bestandenem DOI-Ende-zu-Ende-Test aktivieren.
+  <url><loc>https://happyplace.com.de/mini-reset.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  -->
   <url><loc>https://happyplace.com.de/academy.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://happyplace.com.de/academy-blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://happyplace.com.de/academy-lebenslang-lernen.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
