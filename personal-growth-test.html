@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welches Personal-Growth-Buch passt zu dir? | Happy Place Test</title>
+  <meta name="description" content="Beantworte fünf kurze Fragen und erhalte eine transparente, priorisierte Auswahl aus fünf Personal-Growth-Büchern – mit Vor- und Nachteilen statt pauschaler Kaufempfehlung.">
+  <link rel="canonical" href="https://happyplace.com.de/personal-growth-test.html">
+  <meta property="og:title" content="Welches Personal-Growth-Buch passt zu dir?">
+  <meta property="og:description" content="Fünf Fragen, zwei Hauptempfehlungen und drei Alternativen – transparent und ohne Kaufdruck.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://happyplace.com.de/personal-growth-test.html">
+  <meta property="og:image" content="https://happyplace.com.de/assets/blog-kleine-gewohnheiten.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="46" height="46"><span>Happy Place</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menü</button>
+    <nav id="navigation" aria-label="Hauptnavigation"><a href="wissen.html">Wissen</a><a href="blog.html">Alle Artikel</a><a href="empfehlungen.html">Empfehlungen</a><a href="index.html#produkte">Produkte</a></nav>
+  </header>
+
+  <main id="main" class="quiz-page">
+    <section class="quiz-intro">
+      <div>
+        <p class="eyebrow">Kostenloser Entscheidungstest · etwa 2 Minuten</p>
+        <h1>Welches Personal-Growth-Buch passt gerade zu dir?</h1>
+        <p>Du erhältst keine Diagnose und keinen künstlichen Testsieger. Deine Antworten sortieren fünf redaktionell ausgewählte Bücher danach, welches Format und welche Methode zu deinem aktuellen Problem passen könnten.</p>
+      </div>
+      <aside class="quiz-promise">
+        <strong>Das Ergebnis enthält</strong>
+        <ul><li>zwei begründete Hauptempfehlungen,</li><li>drei transparent eingeordnete Alternativen,</li><li>Vor- und Nachteile sowie eine Nicht-Kauf-Option.</li></ul>
+      </aside>
+    </section>
+
+    <section class="quiz-shell" aria-labelledby="quiz-heading">
+      <div class="quiz-progress-wrap">
+        <p id="quiz-heading" class="eyebrow">Dein Test</p>
+        <p id="quiz-step-label">Frage 1 von 5</p>
+        <div class="quiz-progress" role="progressbar" aria-valuemin="1" aria-valuemax="5" aria-valuenow="1"><span></span></div>
+      </div>
+
+      <form id="personal-growth-quiz">
+        <fieldset class="quiz-step" data-step="0">
+          <legend>Was möchtest du aktuell am stärksten verbessern?</legend>
+          <label><input type="radio" name="goal" value="habits"> Neue Gewohnheiten wirklich anfangen und beibehalten</label>
+          <label><input type="radio" name="goal" value="focus"> Konzentrierter arbeiten und Ablenkungen reduzieren</label>
+          <label><input type="radio" name="goal" value="planning"> Gedanken, Aufgaben und Prioritäten ordnen</label>
+          <label><input type="radio" name="goal" value="reflection"> Regelmäßig reflektieren und bewusster wahrnehmen</label>
+        </fieldset>
+
+        <fieldset class="quiz-step" data-step="1" hidden>
+          <legend>Woran scheitert die Umsetzung meistens?</legend>
+          <label><input type="radio" name="barrier" value="start"> Der erste Schritt fühlt sich zu groß an</label>
+          <label><input type="radio" name="barrier" value="consistency"> Ich starte, bleibe aber nicht regelmäßig dabei</label>
+          <label><input type="radio" name="barrier" value="distraction"> Unterbrechungen und digitale Ablenkungen</label>
+          <label><input type="radio" name="barrier" value="overwhelm"> Zu viele offene Gedanken und Aufgaben</label>
+        </fieldset>
+
+        <fieldset class="quiz-step" data-step="2" hidden>
+          <legend>Wie lernst und arbeitest du am liebsten?</legend>
+          <label><input type="radio" name="format" value="read"> Ich möchte Zusammenhänge ausführlich verstehen</label>
+          <label><input type="radio" name="format" value="write"> Ich denke am besten mit Stift und Papier</label>
+          <label><input type="radio" name="format" value="practice"> Ich möchte sofort eine kleine Übung ausprobieren</label>
+        </fieldset>
+
+        <fieldset class="quiz-step" data-step="3" hidden>
+          <legend>Wie viel Zeit möchtest du regelmäßig investieren?</legend>
+          <label><input type="radio" name="time" value="short"> Höchstens 5–6 Minuten</label>
+          <label><input type="radio" name="time" value="medium"> Etwa 10–15 Minuten</label>
+          <label><input type="radio" name="time" value="deep"> Lieber seltener, dafür 20 Minuten oder mehr</label>
+        </fieldset>
+
+        <fieldset class="quiz-step" data-step="4" hidden>
+          <legend>Welche Art von Unterstützung suchst du?</legend>
+          <label><input type="radio" name="support" value="guided"> Klare Vorgaben und möglichst wenig Vorbereitung</label>
+          <label><input type="radio" name="support" value="flexible"> Ein System, das ich selbst anpassen kann</label>
+          <label><input type="radio" name="support" value="deep"> Eine ausführliche Methode mit Hintergrundwissen</label>
+        </fieldset>
+
+        <p id="quiz-error" class="quiz-error" role="alert" aria-live="polite"></p>
+        <div class="quiz-actions">
+          <button class="button secondary" id="quiz-back" type="button" hidden>Zurück</button>
+          <button class="button primary" id="quiz-next" type="button">Weiter</button>
+        </div>
+      </form>
+      <p class="quiz-privacy">Deine Antworten bleiben in deinem Browser und werden nicht gespeichert oder übertragen.</p>
+    </section>
+
+    <section id="quiz-results" class="quiz-results" hidden aria-live="polite">
+      <p class="eyebrow">Deine persönliche Reihenfolge</p>
+      <h2>Diese Optionen passen am ehesten zu deinen Antworten</h2>
+      <p id="quiz-summary"></p>
+      <div class="affiliate-notice"><strong>Transparenz:</strong> Die Auswahl ist redaktionell erstellt und keine psychologische oder medizinische Beratung. Wir behaupten nicht, jedes Buch selbst getestet zu haben. Die Links sind Affiliate-Links: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich ändert sich der Preis nicht.</div>
+      <div id="quiz-primary-results" class="quiz-primary-results"></div>
+      <h3>Weitere Alternativen</h3>
+      <div id="quiz-other-results" class="quiz-other-results"></div>
+      <aside class="quiz-none">
+        <h3>Vielleicht brauchst du gerade keines dieser Bücher</h3>
+        <p>Wenn du bereits eine Methode kennst, wähle lieber einen einzigen kleinen Schritt und teste ihn sieben Tage. Mehr Information ist nicht automatisch mehr Umsetzung.</p>
+        <a href="gewohnheiten-aufbauen.html">Kostenlosen Gewohnheiten-Leitfaden lesen →</a>
+      </aside>
+      <button class="button secondary" id="quiz-restart" type="button">Test erneut starten</button>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><img src="assets/logo.svg" alt="" width="40" height="40"><span>Happy Place</span></div><p>Kleine Gewohnheiten. Neue Erfahrungen. Mehr Leben.</p><div class="footer-links"><a href="index.html">Startseite</a><a href="wissen.html">Wissen</a><a href="blog.html">Artikel</a><a href="empfehlungen.html">Empfehlungen</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div><small>© <span id="year"></span> Happy Place</small></footer>
+</body>
+</html>
